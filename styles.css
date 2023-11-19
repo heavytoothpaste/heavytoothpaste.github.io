@@ -1,7 +1,8 @@
 body{
     margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/* .text-font-1 {
+.text-font-1 {
     color: #2bbfd9;
     font-size: 50px;
 }
@@ -9,7 +10,7 @@ body{
 .text-font-2 {
     color: #0da161;
     font-size: 30px;
-} */
+}
 
 .topnav {
     z-index: 5;
@@ -23,10 +24,9 @@ body{
 }
 
 .topnav a {
-    font-family:Arial, Helvetica, sans-serif;
     color: black;
     text-align: center;
-    padding: 25px 50px;
+    padding: 20px 50px;
     text-decoration: none;
     font-size: 45px;
     font-weight: 900;
@@ -41,4 +41,25 @@ body{
     background-color: #41B3A3;
     color: black;
     
+}
+
+.math-handouts-panel{
+    padding: 125px 0px 25px 50px;
+    text-align: left;
+    background-color: #7395AE;
+    /* font-weight: 900; */
+}
+.handouts-title{
+    color: black;
+    font-size: 75px;
+}
+.handouts-list{
+    padding: 0px 0px 0px 25px;
+    font-size: 25px;
+}
+.handout-item{
+    padding: 20px 0px 0px 0px; 
+}
+.handout-item > a{
+    color: black;
 }
