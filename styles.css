@@ -28,7 +28,7 @@ body{
     text-align: center;
     padding: 20px 50px;
     text-decoration: none;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 900;
 }
 
@@ -41,6 +41,30 @@ body{
     background-color: #242526;
     color: white;
 }
+
+/* HOMEPAGE */
+.home-panel-1{
+    padding: 75px 500px 50px 400px;
+    background-color: #363636;
+    text-align: left;
+    align-items: center;
+    display: flex;
+
+}
+.dragon-painting{ 
+    padding: 50px 0px 0px 100px;
+}
+.aboutme-text{
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+}
+.about-me-body{
+    color: white;
+}
+
+
+/* MATH PAGE */
 
 .math-handouts-panel{
     padding: 125px 0px 25px 50px;
@@ -64,4 +88,17 @@ body{
 }
 .handout-item > a{
     color: white;
+}
+
+/* Footer */
+.footer{
+    background-color: black;
+}
+.logo-array{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 25px 600px 25px 600px;
+    justify-content: space-between;
+
 }
